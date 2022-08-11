@@ -4,7 +4,7 @@ Deixarei aqui todos os exercícios feitos por [mim](https://www.linkedin.com/in/
 ## Exercícios
 Concluido | Bloco | Título | Caminho
 :------: | :------: | :------: | :------:
-✅ | 01 | Unix & Bash |
-✅ | 02 | Git, GitHub & Internet |
-✅ | 03 | Introdução à HTML e CSS |
+✅ | 01 | Unix & Bash | [pasta](./Modulo-1/Bloco\ 01)
+✅ | 02 | Git, GitHub & Internet | [pasta](./Modulo-1/Bloco\ 02)
+✅ | 03 | Introdução à HTML e CSS | [pasta](./Modulo-1/Bloco 03)
 ✅ |
