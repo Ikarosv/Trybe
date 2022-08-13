@@ -1,6 +1,6 @@
 # Fundamentos do Desenvolvimento Web
 
-Módulo composto de 8 blocos de fundamentos 
+Módulo composto de 8 blocos de fundamentos da web.
 
 ## Exercícios
 Os Modulos e seus respectivos blocos, e os caminhos para eles.
