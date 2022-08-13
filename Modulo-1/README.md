@@ -3,7 +3,7 @@
 Módulo composto de 8 blocos de fundamentos 
 
 ## Exercícios
-Essa parte contém os Modulos e seus respectivos blocos, e os caminhos para eles.
+Os Modulos e seus respectivos blocos, e os caminhos para eles.
 
 ##### Significados
 * ✅ Concluido
