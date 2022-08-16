@@ -7,8 +7,8 @@ Bloco composto de 4 dias de exercício e 1 projeto.
 * ... Em andamento
 * ❌ Em breve
 
-### Modulo 01
-Concluido | Bloco | Título | Caminho
+### Bloco 3
+Concluido | Dia | Título | Caminho
 :------: | :------: | :------: | :------:
 ✅ | 01 | Introdução - HTML & CSS | [Dia 01](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-03)
 ✅ | 01 | HTML & CSS - Estruturas de Página | [Dia 01](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-03)
