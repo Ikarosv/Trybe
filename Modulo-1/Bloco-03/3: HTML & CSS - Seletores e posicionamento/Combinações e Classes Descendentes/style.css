@@ -37,3 +37,27 @@ h1, h2, h3, h4, h5, h6 {
 :is(ul#programacao) li:is(:nth-child(2), :nth-child(3)) {
   background-color: pink;
 }
+
+ul#aliados li a:hover {
+  font-weight: bold;
+}
+
+a#stackOverflow:hover {
+  color: orange;
+}
+
+a#w3schools:hover {
+  color: green;
+}
+
+a#mdn:hover {
+  color: black;
+}
+
+a#devDocs:hover {
+  color: yellow;
+}
+
+a#trybe:hover {
+  color: chartreuse;
+}
