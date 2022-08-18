@@ -17,3 +17,6 @@ console.log(typeof patientEmail)
 const base = 5;
 let height = 8;
 const area = base * height;
+console.log('A area é: ' + area)
+const perimetro = area * 2;
+console.log('O perimetro é: ' + perimetro)
