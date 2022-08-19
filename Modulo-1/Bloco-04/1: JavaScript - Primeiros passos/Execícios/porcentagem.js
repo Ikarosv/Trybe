@@ -1,7 +1,7 @@
-let porcentagem = 49, nota;
+let porcentagem = 101, nota;
 
-if (porcentagem >= 90) {
-  nota = 'A'
+if (porcentagem < 0 || porcentagem > 100) {
+  nota = 'Porcentagem errada'
 } else if (porcentagem >= 80) {
   nota = 'B'
 } else if (porcentagem >= 70) {
@@ -12,6 +12,8 @@ if (porcentagem >= 90) {
   nota = 'E'
 } else if (porcentagem < 50) {
   nota = 'F'
+} else if (porcentagem >= 90) {
+  nota = 'A'
 }
 
 console.log('A nota foi: ' + nota)
