@@ -58,19 +58,17 @@
   <body>
     <script>
       const body = document.body;
-      function criaH1(texto) {
-        const newH1 = document.createElement('h1');
-        newH1.innerText = texto;
-        return newH1;
+      function criaElemento(elemento, classe, texto) {
+        const newElement = document.createElement(elemento);
+        if(texto) newElement.innerText = texto;
+        if(classe) newElement.className = classe;
+        return newElement;
       }
-      function criaMain(classe) {
-        const newMain = document.createElement('main');
-        newMain.className = classe;
-        return newMain;
-      }
+      let filhos = [criaElemento('h1', 0,'Exercício 5.2 - JavaScript DOM'), criaElemento('main', 'main-container')]
       
-      body.appendChild(criaH1('Exercício 5.2 - JavaScript DOM'));
-      body.appendChild(criaMain('main-container'))
+      for (const value of filhos) {
+        body.appendChild(value)
+      }
     </script>
   </body>
 </html>
