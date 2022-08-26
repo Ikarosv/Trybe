@@ -58,9 +58,19 @@
   <body>
     <script>
       const body = document.body;
-      const newH1 = document.createElement('h1');
-      newH1.innerText = 'Exercício 5.2 - JavaScript DOM'
-      body.appendChild(newH1)
+      function criaH1(texto) {
+        const newH1 = document.createElement('h1');
+        newH1.innerText = texto;
+        return newH1;
+      }
+      function criaMain(classe) {
+        const newMain = document.createElement('main');
+        newMain.className = classe;
+        return newMain;
+      }
+      
+      body.appendChild(criaH1('Exercício 5.2 - JavaScript DOM'));
+      body.appendChild(criaMain('main-container'))
     </script>
   </body>
 </html>
