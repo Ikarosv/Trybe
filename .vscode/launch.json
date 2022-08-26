@@ -12,7 +12,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/Modulo-1/Bloco-04/1: JavaScript - Primeiros passos/Variáveis/scripts.js"
+      "program": "${workspaceFolder}/Modulo-1/Bloco-04/4: Objetos e funções/script.js"
     }
   ]
 }
