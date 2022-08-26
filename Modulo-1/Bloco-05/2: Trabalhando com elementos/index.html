@@ -57,6 +57,7 @@
   </head>
   <body>
     <script>
+      // Desafios 1 e 2
       const body = document.body;
       function criaElemento(elemento, classe, texto) {
         const newElement = document.createElement(elemento);
@@ -64,11 +65,22 @@
         if(classe) newElement.className = classe;
         return newElement;
       }
-      let filhos = [criaElemento('h1', 0,'Exercício 5.2 - JavaScript DOM'), criaElemento('main', 'main-container')]
+      let filhos = [criaElemento('h1', 0,'Exercício 5.2 - JavaScript DOM'), criaElemento('main', 'main-content')]
       
       for (const value of filhos) {
         body.appendChild(value)
       }
+
+      // Desafio 3
+      const main = document.getElementsByClassName('main-content')[0];
+      main.appendChild(criaElemento('section', 'center-content'))
+
+      // Desafio 4
+      const sectionCenterContent = document.getElementsByClassName('center-content')[0];
+      sectionCenterContent.appendChild(criaElemento('p', 0, 'Texto criado'))
+
+      // Desafio 5
+      main.appendChild(criaElemento('section', 'left-content'))
     </script>
   </body>
 </html>
