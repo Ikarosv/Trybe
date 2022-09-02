@@ -1,9 +1,6 @@
-# Fundamentos do Desenvolvimento Web
+# JavaScript - DOM, Eventos & Web Storage
 
-Módulo composto de 8 blocos de fundamentos da web.
-
-## Exercícios
-Os Modulos e seus respectivos blocos, e os caminhos para eles.
+Bloco composto por 4 dias de estudos, 1 projeto origatório e 4 projetos bônus.
 
 ##### Significados
 * ✅ Concluido
