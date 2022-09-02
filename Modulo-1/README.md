@@ -10,11 +10,14 @@ Os Modulos e seus respectivos blocos, e os caminhos para eles.
 * ... Em andamento
 * ❌ Em breve
 
-### Bloco 05
-Concluido | dia | Título | Caminho
+### Modulo 01
+Concluido | Bloco | Título | Caminho
 :------: | :------: | :------: | :------:
-✅ | 01 | JavaScript - DOM & Seletores | [Ex 01](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-05)
-✅ | 02 | JavaScript - Trabalhando com elementos | [Ex 02](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-05/2:%20Trabalhando%20com%20elementos)
-✅ | 03 | JavaScript - Eventos | [Ex 03](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-05)
-✅ | 04 | JavaScript - Web Storage | [Ex 04](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-05)
-✅ | 05 | Projeto - Arte com Pixels | [Projeto Pixel Art](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-05/4:%20Web%20Storage/Projeto%20Pixel%20Art)
+✅ | 01 | Unix & Bash | [Bloco 01](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-01)
+✅ | 02 | Git, GitHub & Internet | [Bloco 02](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-02)
+✅ | 03 | Introdução à HTML e CSS | [Bloco 03](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-03)
+... | 04 | Introdução á JavaScript e Lógica da programação | [Bloco 04](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-04)
+❌ | 05 | JavaScript: DOM, Eventos e Web Storage | [Bloco 05](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-05)
+❌ | 06 | HTML e CSS: Forms, Flexbox e Responsivo | [Bloco 06](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-06)
+❌ | 07 | Introdução à JavaScript ES6 e Testes UNitários | [Bloco 07](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-07)
+❌ | 08 | Higher Order Functions do JavaScript ES6 | [Bloco 08](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-08)
