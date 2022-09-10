@@ -19,7 +19,7 @@ Essa parte contém os Modulos e seus respectivos blocos, e os caminhos para eles
 
 Bloco | Nome | Caminho
 :------: | :------: | :------:
-05 | Pixel Art | [Bloco 05/PixelArt](https://github.com/Ikarosv/Pixel-Art/blob/main/README.md))
+05 | Pixel Art | [Bloco 05/PixelArt](https://github.com/Ikarosv/Pixel-Art/blob/main/README.md)
 
 </details>
 
