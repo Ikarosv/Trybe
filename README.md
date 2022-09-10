@@ -19,7 +19,7 @@ Essa parte contém os Modulos e seus respectivos blocos, e os caminhos para eles
 
 Bloco | Nome | Caminho
 :------: | :------: | :------:
-05 | Pixel Art | [Bloco 05/PixelArt](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-05/4:%20Web%20Storage/Projeto%20Pixel%20Art)
+05 | Pixel Art | [Bloco 05/PixelArt](https://github.com/Ikarosv/Pixel-Art/blob/main/README.md))
 
 </details>
 
