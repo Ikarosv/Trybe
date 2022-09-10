@@ -13,6 +13,16 @@ Essa parte contém os Modulos e seus respectivos blocos, e os caminhos para eles
 * ✅ Concluido
 * ... Em andamento
 * ❌ Em breve
+
+<details open>
+<summary><h3> Projetos </h3></summary>
+
+Bloco | Nome | Caminho
+:------: | :------: | :------:
+05 | Pixel Art | [Bloco 05/PixelArt](https://github.com/Ikarosv/Trybe/tree/main/Modulo-1/Bloco-05/4:%20Web%20Storage/Projeto%20Pixel%20Art)
+
+</details>
+
 <details open>
 <summary><h3> Modulo 01 </h3></summary>
 
