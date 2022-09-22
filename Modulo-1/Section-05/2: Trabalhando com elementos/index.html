@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // Desafios 1 e 2
+      const body = document.body;
+      function criaElemento(elemento, classe, texto) {
+        const newElement = document.createElement(elemento);
+        if(texto) newElement.innerText = texto;
+        if(classe) newElement.className = classe;
+        return newElement;
+      }
+      let filhos = [criaElemento('h1', 0,'Exercício 5.2 - JavaScript DOM'), criaElemento('main', 'main-content')]
+      
+      for (const value of filhos) {
+        body.appendChild(value)
+      }
+
+      // Desafio 3
+      const main = document.querySelector('.main-content');
+      main.appendChild(criaElemento('section', 'center-content'))
+
+      // Desafio 4
+      const sectionCenterContent = document.querySelector('.center-content');
+      sectionCenterContent.appendChild(criaElemento('p', 0, 'Texto criado'))
+
+      // Desafio 5
+      main.appendChild(criaElemento('section', 'left-content'))
+
+      // Desafio 6
+      main.appendChild(criaElemento('section', 'right-content'))
+
+      // Desafio 7
+      const sectionLeftContent = document.querySelector('.left-content') 
+
+      let carro = document.createElement('div')
+      carro.style.backgroundColor = 'red'
+      carro.style.width = '50px'
+      carro.style.height = '50px'
+      let anda = Math.random() * 100
+      carro.style.marginLeft = 0
+      carro.addEventListener('click', () => {
+        carro.style.marginLeft = parseInt(carro.style.marginLeft) + Math.random() * 100 + 'px'
+        anda += Math.random() * 100
+        if(carro.style.right === 0) {
+          alert('aaaaaa')
+        }
+      })
+      body.appendChild(carro)
+    </script>
+  </body>
+</html>

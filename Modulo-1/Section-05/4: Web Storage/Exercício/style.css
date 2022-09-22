@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-top: 20px;
+  background-color: gray;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.radios input {
+  margin-right: 5px;
+}
+
+/* MAIN */
+
+#Main {
+  width: 100%;
+}
+
+#Main p {
+  margin-bottom: .8rem;
+  width: 90%;
+  text-align: justify;
+}
+
+#Main p::first-letter {
+  margin-left: 15px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* TEMAS */
+
+.Temas label {
+  margin-right: 8px;
+}
+
+.Temas input {
+  padding: 3px 10px;
+}
