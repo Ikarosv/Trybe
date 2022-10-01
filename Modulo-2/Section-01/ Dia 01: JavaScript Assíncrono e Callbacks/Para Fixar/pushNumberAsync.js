@@ -1,16 +1,16 @@
-// pushNumberAsync.js
+// callbacks-para-fixar-01.js
 
-const pushNumber = (list, number) => list.push(number);
+const userFullName = ({ firstName, lastName }) => `Olá! Meu nome é ${firstName} ${lastName}`;
+const userNationality = ({ firstName, nationality }) => `${firstName} é ${nationality}`;
 
-const numbers = [];
+const getUser = (callback) => {
+  const user = {
+    firstName: 'Ivan',
+    lastName: 'Ivanovich',
+    nationality: 'Russo',
+  };
+  return callback(getUser);
+};
 
-const THREE_SECONDS = 3000;
-
-setTimeout(() => pushNumber(numbers, 1), THREE_SECONDS);
-pushNumber(numbers, 2);
-pushNumber(numbers, 3);
-
-setTimeout(() => console.log(numbers), THREE_SECONDS);
-
-// Saída:
-// [ 1, 2, 3 ]
+console.log(getUser(userFullName)); // Retorno esperado: "Olá! Meu nome é Ivan Ivanovich"
+console.log(getUser(userNationality)); // Retorno esperado: "Ivan é Russo"
