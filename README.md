@@ -19,7 +19,9 @@ Essa parte contém os Modulos e seus respectivos blocos, e os caminhos para eles
 
 Bloco | Nome | Caminho
 :------: | :------: | :------:
-05 | Pixel Art | [Bloco 05/PixelArt](https://github.com/Ikarosv/Pixel-Art/blob/main/README.md)
+05 | Pixel Art | [Pixel Art](https://github.com/Ikarosv/Pixel-Art)
+07 | Unit Tests | [Projeto Unit Tests](https://github.com/Ikarosv/Project-Unit-Tests)
+08 | Zoo Functions | [Project Zoo Functions](https://github.com/Ikarosv/Project-Zoo-Functions)
 
 </details>
 
