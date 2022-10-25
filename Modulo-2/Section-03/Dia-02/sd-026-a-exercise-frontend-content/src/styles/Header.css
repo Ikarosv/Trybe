@@ -1,0 +1,9 @@
+.Header {
+  text-align: center;
+  padding: 10px;
+}
+
+.sectionMain {
+  border: 1px dashed black;
+  border-radius: 6px;
+}
